@@ -1,5 +1,6 @@
-import {defineConfig} from "vite"
+import { defineConfig } from "vite";
 
 export default defineConfig({
-	plugins: []
-})
+  base: "./", // Ensures resources are loaded relative to the current directory
+  plugins: [],
+});
